@@ -7,7 +7,23 @@ The ISO country code are internationally recognized codes that designates for ea
 
 ### Documentation
 
+#### Installation
+
+	npm install
+
+Note: you may want to install the package dependencies globally if you don't have them already...
+
+	npm install -g babel-cli
+	npm install -g browserify
+	npm install -g jasmine
+
 #### Getting Started
+
+###### Building the project
+
+The following command will transpile the ES6 module to ES5, minify the JS, then run the unit tests.
+
+	npm run all
 
 The script is a simple, with two publically accessible methods for the country code conversion.
 
