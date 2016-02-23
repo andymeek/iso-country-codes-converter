@@ -31,12 +31,12 @@ The script is simple - initially you need include the JS and call one of the two
 
 ##### Convert from 2 digit (ISO alpha-2) to 3-digit country codes (ISO alpha-3):
 
-countryCodeConverter.convertTwoDigitToThree('US'); // Returns 'USA'
+	countryCodeConverter.convertTwoDigitToThree('US'); // Returns 'USA'
 
 -----
 
 ##### Convert from 3 digit (ISO alpha-3) to 2-digit country codes (ISO alpha-2):
 
-countryCodeConverter.convertThreeDigitToTwo('USA'); // Returns 'US'
+	countryCodeConverter.convertThreeDigitToTwo('USA'); // Returns 'US'
 
 
