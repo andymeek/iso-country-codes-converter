@@ -1,0 +1,15 @@
+{
+    "name": "ISO-Country-Code-Converter",
+    "version": "1.0.0",
+    "devDependencies": {
+        "babel-cli": "^6.0.0",
+        "browserify": "latest",
+        "jasmine": "latest"
+    },
+    "scripts": {
+        "transpile": "babel ./src/iso-country-code-converter.js --out-file ./dist/iso-country-code-converter.js --source-maps",
+        "build": "browserify ./dist/iso-country-code-converter.js | uglifyjs > ./dist/iso-country-code-converter.min.js",
+        "test": "jasmine",
+        "all": "npm run transpile && npm run build && npm run test"
+    }
+}
